@@ -1,0 +1,36 @@
+<br><br>
+<p *ngIf="user == null">Pas d'utlisateur à vérifier</p>
+<div *ngIf="user != null" style="text-align: center">
+
+
+<p><span class="t">Nom :</span> {{user.nom}}</p>
+<br>
+<p><span class="t">Prénom :</span> {{user.prenom}}</p>
+<br>
+<p><span class="t">CIN :</span> {{user.cin}}</p>
+<br>
+<p><span class="t">Carte étudiant :</span> {{user.numCard}}</p>
+<br>
+<p><span class="t">Email :</span> {{user.email}}</p>
+
+<img id="myImg" [src]="URL+user.fileCard" (click)="imgClick()" width="400" height="200"/>
+
+<br>
+<br>
+
+<button type="button" class="btn btn-dark" (click)="valider()">Valider</button>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal" [style.display]="display">
+  <span class="close" (click)="close()">&times;</span>
+  <img class="modal-content" [src]="src">
+  <div id="caption">Carte num : {{user.numCard}}
+    <br>
+    CIN : {{user.cin}}
+  </div>
+</div>
+
+
+</div>

@@ -1,0 +1,71 @@
+
+<br><br>
+
+<div class="row h-100 justify-content-center align-items-center">
+<div class="form-group col-10">
+<input type="text" class="form-control"  placeholder="Titre" #title>
+</div>
+</div>
+
+
+<div class="row h-100 justify-content-center align-items-center">
+<div class="form-group col-10">
+  <input type="text" class="form-control"  placeholder="Auteur" #auteur>
+</div>
+</div>
+
+<br>
+
+<div class="row h-100 justify-content-center align-items-center">
+    <div class="form-inline col-4">
+      <label for="nbrPages">Nombre des pages : </label> &nbsp;&nbsp;&nbsp;
+      <input type="number" class="form-control" id="nbrPages" min="0" #nbrPages>
+    </div>
+    
+    </div>
+
+    <br>
+
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="form-group col-10">
+          <input type="text" class="form-control"  placeholder="Langue" #langue>
+        </div>
+        </div>
+
+        
+
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="form-group col-10">
+              <input type="date" class="form-control"  placeholder="Date de sortie" #date>
+            </div>
+            </div>
+            
+            <br>
+            
+
+
+            <div class="row h-100 justify-content-center align-items-center">
+                  <textarea class="col-10" placeholder="Description du livre" rows="8" #description></textarea>
+                </div>
+
+
+                <br>
+
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div class="form-inline col-5">
+                        <label for="file">Photo du livre : </label>&nbsp;&nbsp;&nbsp;
+                      <input type="file" id="file" class="form-control" #photo>
+                    </div>
+                    </div>
+
+
+                    <br><br>
+
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="form-inline col-12 justify-content-center">
+                            <button type="submit" class="btn btn-primary" (click)="send(title,auteur,nbrPages,langue,date,description,photo)">Ajouter le livre</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="submit" class="btn btn-primary" (click)="reset(title,auteur,nbrPages,langue,date,description,photo)">Annuler</button>
+                        </div>
+                        </div>
+
+                        <br><br>

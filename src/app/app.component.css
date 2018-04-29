@@ -1,0 +1,82 @@
+
+
+div{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+
+
+#mySidebar{
+padding-top: 20px;
+color: white;    
+background-color: rgb(82, 82, 82);
+width: 25%;
+
+}
+
+#logo{
+
+    display: block;
+    margin: auto;
+
+}
+
+#titre{
+margin-left: 20px;
+font-size: 34px;
+
+}
+
+#btn{
+    
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#menuBar{
+    background-color: black;
+}
+
+
+
+a{
+    color: white;
+    padding: 0px;
+}
+
+a img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.textNav{
+    font-size: 18px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+}
