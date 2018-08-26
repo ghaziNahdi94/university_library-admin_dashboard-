@@ -33,7 +33,7 @@
     "zone.js": "^0.8.19",
      "typescript": "~2.5.3",
     "express": "^4.15.3",
-    "postinstall": "ng build --aot --target=production"
+    "postinstall": "nng build --prod"
   },
   "devDependencies": {
    
