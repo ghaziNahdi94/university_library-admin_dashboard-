@@ -33,7 +33,7 @@
     "zone.js": "^0.8.19",
      "typescript": "~2.5.3",
     "express": "^4.15.3",
-    "postinstall": "ng build --aot --target=production "
+    "postinstall": "ng build --aot --target=production"
   },
   "devDependencies": {
    
@@ -52,8 +52,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
-    "tslint": "~5.9.1",
-   
+    "tslint": "~5.9.1"
   }
   
   "engines": {
